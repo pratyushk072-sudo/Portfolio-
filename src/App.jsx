@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import CustomCursor from './components/CustomCursor';
 import { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -62,6 +63,7 @@ function App() {
       <footer style={{ textAlign: 'center', padding: '2rem', borderTop: '1px solid var(--card-border)', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
         <p>© {new Date().getFullYear()} Pratyush. Built with React & Vite.</p>
       </footer>
+      <Analytics />
     </>
   );
 }
