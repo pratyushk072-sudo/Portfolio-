@@ -27,7 +27,7 @@ function App() {
 
       <CustomCursor />
 
-      <nav style={{ 
+      <nav className="nav-container" style={{ 
         position: 'fixed', 
         top: 0, 
         width: '100%', 
@@ -44,7 +44,7 @@ function App() {
         <div style={{ fontWeight: '700', fontSize: '1.25rem', letterSpacing: '1px' }}>
           <span className="text-gradient">&lt;Pratyush /&gt;</span>
         </div>
-        <ul style={{ display: 'flex', listStyle: 'none', gap: '2rem', margin: 0, padding: 0 }}>
+        <ul className="nav-links" style={{ display: 'flex', listStyle: 'none', gap: '2rem', margin: 0, padding: 0 }}>
           <li><a href="#about" style={{ color: 'var(--text-primary)', fontSize: '0.95rem', fontWeight: 500 }}>About</a></li>
           <li><a href="#skills" style={{ color: 'var(--text-primary)', fontSize: '0.95rem', fontWeight: 500 }}>Skills</a></li>
           <li><a href="#projects" style={{ color: 'var(--text-primary)', fontSize: '0.95rem', fontWeight: 500 }}>Projects</a></li>

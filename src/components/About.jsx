@@ -7,7 +7,7 @@ const About = () => {
       <div className="glass-card" style={{ padding: '2.5rem', display: 'flex', gap: '3rem', alignItems: 'center', flexWrap: 'wrap' }}>
         
         <div style={{ flex: '1 1 250px', display: 'flex', justifyContent: 'center' }}>
-          <div style={{ width: '280px', height: '280px', borderRadius: '50%', overflow: 'hidden', border: '3px solid var(--card-border)', boxShadow: '0 0 30px var(--accent-glow)' }}>
+          <div style={{ width: '280px', height: '280px', flexShrink: 0, borderRadius: '50%', overflow: 'hidden', border: '3px solid var(--card-border)', boxShadow: '0 0 30px var(--accent-glow)' }}>
             <img 
               src={profilePic} 
               alt="Pratyush Profile" 
